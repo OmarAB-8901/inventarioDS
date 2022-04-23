@@ -1,0 +1,134 @@
+ /* Starts Styles */
+ 
+ :root {
+     --color-inactivo: #5f5050;
+     --color-hover: #ffa400;
+ }
+ 
+ .startSelected,
+ .clasificacion.viewAllProducts label {
+     color: var(--color-hover);
+ }
+ 
+ .clasificacion input[type="radio"] {
+     display: none;
+ }
+ /* .clasificacion.viewDetailProducts label {
+     background-color: initial;
+     border: 0;
+     color: var(--color-inactivo);
+     transition: 1s all;
+ } */
+ 
+ .clasificacion.viewDetailProducts label:hover {
+     cursor: pointer;
+     color: var(--color-hover);
+ }
+ 
+ .clasificacion.viewDetailProducts label:nth-child(5):hover~label {
+     color: var(--color-hover);
+     transform: rotate(360deg);
+ }
+ 
+ .clasificacion.viewDetailProducts label:nth-child(4):hover~label {
+     color: var(--color-hover);
+     transform: rotate(360deg);
+ }
+ 
+ .clasificacion.viewDetailProducts label:nth-child(3):hover~label {
+     color: var(--color-hover);
+     transform: rotate(360deg);
+ }
+ 
+ .clasificacion.viewDetailProducts label:nth-child(2):hover~label {
+     color: var(--color-hover);
+     transform: rotate(360deg);
+ }
+ 
+ .clasificacion.viewDetailProducts label:nth-child(1):hover~label {
+     color: var(--color-hover);
+     transform: rotate(360deg);
+ }
+ /* My CSS Style */
+ 
+ .btnAddProduct {
+     padding: 0.3rem 0.8rem;
+     margin-bottom: 0.5rem;
+     margin-right: 0.5rem;
+ }
+ 
+ .borderProduct {
+     background-color: #fff;
+     border: 1px solid rgba(0, 0, 0, 0.125);
+     border-right: 1px solid rgba(0, 0, 0, 0.125);
+     box-shadow: 2px 2px 5px #999;
+ }
+ 
+ .button-cart {
+     text-align: end;
+     display: inline-flex;
+ }
+ 
+ .button-cart button {
+     margin-right: 0.5rem;
+     height: fit-content;
+ }
+ 
+ .button-cart p {
+     padding-top: 0.2rem;
+ }
+ 
+ .container_products .showedProduct .allProductsImage {
+     width: auto;
+     height: 10rem;
+ }
+ 
+ .container_products .showedProduct .singleProductsImage {
+     width: auto;
+     height: 20rem;
+ }
+ 
+ .showedProduct {
+     text-align: center;
+ }
+ 
+ .actionButtons {
+     display: grid;
+ }
+ 
+ .actionButtons button {
+     margin: 0.25rem 0;
+ }
+ 
+ .badge {
+     display: inline-block;
+     padding: 0.25em 0.4em;
+     font-size: 75%;
+     font-weight: 700;
+     line-height: 1;
+     text-align: center;
+     white-space: nowrap;
+     vertical-align: baseline;
+     border-radius: 0.35rem;
+     transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+ }
+ 
+ .badge-success {
+     color: #fff;
+     background-color: #1cc88a6c;
+ }
+ 
+ .badge-danger {
+     color: #fff;
+     background-color: #f61f096c;
+ }
+ 
+ .oneProduct {
+     display: inline-flex;
+     margin-top: -1rem;
+     margin-bottom: 1rem;
+ }
+ 
+ .showDetailProduct {
+     cursor: pointer;
+ }
